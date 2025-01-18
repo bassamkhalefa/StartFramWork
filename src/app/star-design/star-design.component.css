@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    width: 50px; /* Adjust line length as needed */
+    height: 2px;
+    background-color: #333; /* Change color as desired */
+    margin: 0 10px; /* Adjust spacing between elements */
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    background-color: #f0c808; /* Change color as desired */
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 56%, 79% 91%, 50% 70%, 21% 91%, 32% 56%, 2% 35%, 39% 35%);
+    margin: 0 10px; /* Adjust spacing between elements */
+  }
